@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates >
+    <t t-name="owl_playground.Scoreboard" owl="1">
+        <div>
+            <h3>Scoreboard</h3>
+            <p>User Score: <t t-esc="state.userScore"/></p>
+            <p>Computer Score: <t t-esc="state.computerScore"/></p>
+        </div>
+    </t>
+</templates>        
